@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Pagina atual: <%= title %></h1>
+
+    <form action="/data" method="post">
+      <input type="text" placeholder="Nome" name="inputText" autocomplete="off">
+    </form>
+    <h2>Olá <%= name %></h2>
+  </body>
+</html>
